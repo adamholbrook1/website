@@ -9,19 +9,19 @@ class App extends Component {
     return (
       <div className="demo-big-content">
       <Layout>
-          <Header className='header-color' title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Home</Link>} scroll>
+          <Header className='header-color' title={<Link style={{textDecoration: 'none', color: 'white'}} to="/website">Home</Link>} scroll>
               <Navigation>
                   <Link to="/aboutme">About Me</Link>
-                  <Link to="/games">Games</Link>
+                  <Link to="/projects">Projects</Link>
                   <Link to="/writing">Writing</Link>
                   <Link to="/blog">Blog</Link>
               </Navigation>
           </Header>
-          <Drawer title="Navigation">
+          <Drawer className ='menunav' title="Navigation">
               <Navigation>
-                  <Link to="/">Home</Link>
+                  <Link to="/website">Home</Link>
                   <Link to="/aboutme">About Me</Link>
-                  <Link to="/games">Games</Link>
+                  <Link to="/projects">Projects</Link>
                   <Link to="/writing">Writing</Link>
                   <Link to="/blog">Blog</Link>
               </Navigation>

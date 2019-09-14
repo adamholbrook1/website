@@ -1,8 +1,8 @@
 {
   "name": "spookyraven",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
-  "homepage": "https://adamholbrook1.github.io",
+  "homepage": "https://adamholbrook1.github.io/website/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.4.1",
