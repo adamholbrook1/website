@@ -6,13 +6,13 @@ class Home extends Component {
   render() {
     return (
 <div style={{width: '100%', margin: 'auto'}}>
-    <Grid className='landing-grid'>
+    <Grid className='landing-grid' id='home-grid'>
         <Cell col={12}>
             <img src={ avatar} alt='avatar' className='avatar-img' />
             <div className='banner-text'>
                 <h1>Adam Holbrook</h1>
                 <hr/>
-                <p>QA Co-Ordinator | Fantasy Writer | Gamer | Model Painter | Runner/Cycler</p>
+                <p>QA Engineer | Fantasy Writer | Gamer | Model Painter | Runner/Cycler</p>
 
                 <div className='social-links'>
                     {/*Linkedin*/}

@@ -4,7 +4,7 @@ class Writing extends Component {
   render() {
     return (
       <div>
-        <div className='landing-grid'>
+        <div className='landing-grid' id='writing-grid'>
           <div className='blog-header'>
             <div id="header">
               <div id="logo">Writing</div>
