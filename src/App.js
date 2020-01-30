@@ -14,7 +14,6 @@ class App extends Component {
                   <Link to="/aboutme">About Me</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/writing">Writing</Link>
-                  <Link to="/blog">Blog</Link>
               </Navigation>
           </Header>
           <Drawer className ='menunav' title="Navigation">
@@ -23,7 +22,6 @@ class App extends Component {
                   <Link to="/aboutme">About Me</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/writing">Writing</Link>
-                  <Link to="/blog">Blog</Link>
               </Navigation>
           </Drawer>
           <Content>

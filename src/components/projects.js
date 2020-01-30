@@ -10,7 +10,7 @@ class Projects extends Component {
         <div id="logo">Projects</div>
         <ul id="menu">
           <li><a href="/"><span>Frontend</span></a></li>
-          <li><a href="/"><span>Unity</span></a></li>
+          <li><a href="/"><span>Unity (Coming soon!)</span></a></li>
         </ul>
       </div>
    <div id='projects'>

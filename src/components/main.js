@@ -5,7 +5,6 @@ import Home from './home';
 import About from './aboutme';
 import Projects from './projects';
 import Writing from './writing';
-import Blog from './blog';
 
 const Main = () => (
   <Switch>
@@ -13,7 +12,6 @@ const Main = () => (
     <Route path="/aboutme" component={About} />
     <Route path="/projects" component={Projects} />
     <Route path="/writing" component={Writing} />
-    <Route path="/blog" component={Blog} />
   </Switch>
 )
 

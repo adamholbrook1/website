@@ -20,12 +20,12 @@ width: 100%;
 height: 100%;
 }
 
-#projects-grid, #about-grid {
+#projects-grid, #about-grid, #writing-grid {
     position: relative;
     margin-top: -30px;
 }
 
-#home-grid, #writing-grid {
+#home-grid {
     position: fixed;
 }
 
@@ -50,16 +50,7 @@ height: 100%;
   position: relative;
 }
 
- {
-  width: 1090px;
-  height: 42px;
-  list-style: none;
-  margin: 10px 0 0 0; padding: 25px 10px;
-  border-top: 4px double #AAA;
-  border-bottom: 4px double #AAA;
-  position: relative;
-  text-align: center;
-}
+ 
 #menu li {
   display: inline-block;
   width: 173px;
@@ -129,16 +120,6 @@ height: 100%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -182,8 +163,6 @@ height: 100%;
   font-size: 5em;
   padding: 8px;
 }
-
-
 
 
 #project-header {
@@ -301,3 +280,39 @@ justify-content: center;
   font-family: 'Montserrat', cursive;
   font-size: 20px;
   }
+
+#writing-header {
+  color: white;
+  padding-top: 50px;
+  justify-content: center;
+  display: flex;
+}
+  
+.writing-tile {
+  margin: 1rem auto;
+  box-shadow: 0 3px 7px -1px rgba(#000, .1);
+  height: 200px;
+  text-align: center;
+  max-width: 800px;
+  background: blue;
+}
+
+#warp-tile {
+background: linear-gradient(to right, #0f2027, #203a43,#2c5364);
+}
+  
+.writing-image {
+display: flex;
+max-width: 100%;
+max-height: 100%;
+width: 40%;
+float: left;
+height: 100%;
+}
+
+.writing-detail {
+font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
