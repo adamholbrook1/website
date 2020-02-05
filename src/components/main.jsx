@@ -13,7 +13,7 @@ const Main = () => (
     <Route path="/projects" component={Projects} />
     <Route path="/writing" component={Writing} />
   </Switch>
-)
+);
 
 
 export default Main;
