@@ -10,30 +10,18 @@ export const Writing = () => (
         <div id="writing">
           <div className="writing-tile" id="warp-tile">
             <img className="writing-image" src="https://cdn.focus-home.com/admin/games/battlefleet_gothic:_armada_2/background/mobile/home-better-bigger-armada.jpg" alt="project" />
-            <h2 className="writing-detail">
-                Into the warp
-            </h2>
           </div>
 
           <div className="writing-tile">
             <img className="writing-image" src="https://cdn.focus-home.com/admin/games/battlefleet_gothic:_armada_2/background/mobile/home-better-bigger-armada.jpg" alt="project" />
-            <h2 className="writing-detail">
-                Into the warp
-            </h2>
           </div>
 
           <div className="writing-tile">
             <img className="writing-image" src="https://cdn.focus-home.com/admin/games/battlefleet_gothic:_armada_2/background/mobile/home-better-bigger-armada.jpg" alt="project" />
-            <h2 className="writing-detail">
-                Into the warp
-            </h2>
           </div>
 
           <div className="writing-tile">
             <img className="writing-image" src="https://cdn.focus-home.com/admin/games/battlefleet_gothic:_armada_2/background/mobile/home-better-bigger-armada.jpg" alt="project" />
-            <h2 className="writing-detail">
-                Into the warp
-            </h2>
           </div>
         </div>
       </div>

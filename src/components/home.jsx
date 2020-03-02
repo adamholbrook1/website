@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import avatar from '../pictures/me_edited.png';
 
-export const Home = () => (
+const Home = () => (
   <div style={{ width: '100%', margin: 'auto' }}>
     <Grid className="landing-grid" id="home-grid">
       <Cell col={12}>

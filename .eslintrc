@@ -4,5 +4,12 @@
   "env": {
     "browser": true,
     "node": true
-  }
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "import/no-named-as-default": "off",
+    "comma-dangle": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/control-has-associated-label": "off"
+    }
 }
