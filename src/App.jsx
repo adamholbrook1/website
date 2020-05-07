@@ -13,7 +13,6 @@ export const App = () => (
         <Navigation>
           <Link to="/aboutme">About Me</Link>
           <Link to="/projects">Projects</Link>
-          <Link to="/writing">Writing</Link>
         </Navigation>
       </Header>
       <Drawer className="menunav" title="Navigation">
@@ -21,7 +20,6 @@ export const App = () => (
           <Link to="/website">Home</Link>
           <Link to="/aboutme">About Me</Link>
           <Link to="/projects">Projects</Link>
-          <Link to="/writing">Writing</Link>
         </Navigation>
       </Drawer>
       <Content>
